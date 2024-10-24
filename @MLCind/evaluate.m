@@ -26,7 +26,7 @@ end
     mlcind.evaluation_time=[mlcind.evaluation_time evtime];
 
     
-    mlcind.cost=mean(mlcind.cost_history,2);
+    mlcind.cost=mean(real(mlcind.cost_history,2));
 
 end
 
